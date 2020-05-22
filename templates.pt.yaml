@@ -18,19 +18,19 @@ could_not_find_genre: "Não encontrei o gênero {{ genre_name }}"
 
 could_not_find_artist: "Não encontrei nada sobre {{ artist_name }}"
 
-could_not_find_genre_artist: "Não encontrei o gênero{{ genre_name }} do artista {{ artist_name }}"
+could_not_find_genre_artist: "Não encontrei o gênero {{ genre_name }} de {{ artist_name }}"
 
 could_not_find_album: "Não encontrei o álbum {{ album_name }}"
 
-could_not_find_album_artist: "Não encontrei o álbum {{ album_name }} do artista {{ artist }}"
+could_not_find_album_artist: "Não encontrei o álbum {{ album_name }} de {{ artist }}"
 
 could_not_find_song: "Não encontrei a música {{ song_name }}"
 
-could_not_find_song_artist: "Não encontrei a música {{ song_name }} do artista {{ artist }}"
+could_not_find_song_artist: "Não encontrei a música {{ song_name }} de {{ artist }}"
 
 could_not_find_song_album: "Não encontrei a música {{ song_name }} no álbum {{ album_name }}"
 
-could_not_find_multi: "Não encontrei {{ heard_name }} do artista {{ artist }}"
+could_not_find_multi: "Não encontrei {{ heard_name }} de {{ artist }}"
 
 could_not_find_playlist: "Não encontrei uma playlist chamada {{ heard_name }}"
 
@@ -46,13 +46,13 @@ could_not_find_episode_show: "Não encontrei a temporada {{ season }} episódio 
 
 could_not_find_musicvideo: "Não encontrei o vídeo de música chamado {{ heard_musicvideo }}"
 
-could_not_find_musicvideo_artist: "Não encontrei o vídeo de música chamado {{ heard_musicvideo }} do artista {{ heard_artist }}"
+could_not_find_musicvideo_artist: "Não encontrei o vídeo de música chamado {{ heard_musicvideo }} de {{ heard_artist }}"
 
 could_not_find_musicvideos_genre: "Não encontrei nenhum vídeo de música do gênero {{ genre_name }}"
 
-could_not_find_musicvideos_artist: "Não encontrei nenhum vídeo de música do artista {{ artist_name }}"
+could_not_find_musicvideos_artist: "Não encontrei nenhum vídeo de música de {{ artist_name }}"
 
-could_not_find_musicvideos_genre_artist: "Não encontrei nenhum vídeo de música do gênero {{ genre_name }} do artista {{ artist_name }}"
+could_not_find_musicvideos_genre_artist: "Não encontrei nenhum vídeo de música do gênero {{ genre_name }} de {{ artist_name }}"
 
 no_recommendations: "Me desculpe, não tenho nenhuma recomendação"
 
@@ -62,13 +62,13 @@ recommend_show: "Que tal o seriado {{ show_name }}?"
 
 recommend_episode: "Que tal a temporada {{ season }} episódio {{ episode }} de {{ show_name }}?"
 
-recommend_musicvideo: "Que tal o vídeo de música {{ musicvideo_name }} do artista {{ artist_name }}?"
+recommend_musicvideo: "Que tal o vídeo de música {{ musicvideo_name }} de {{ artist_name }}?"
 
-recommend_artist: "Que tal música do artista {{ artist_name }}?"
+recommend_artist: "Que tal música de {{ artist_name }}?"
 
-recommend_album: "Que tal o álbum {{ album_name }} do artista {{ artist_name }}?"
+recommend_album: "Que tal o álbum {{ album_name }} de {{ artist_name }}?"
 
-recommend_song: "Que tal a música {{ song_name }} do artista {{ artist_name }}?"
+recommend_song: "Que tal a música {{ song_name }} de {{ artist_name }}?"
 
 recommend_songs_recent: "Que tal algumas de suas músicas adicionadas recentemente?"
 
@@ -80,15 +80,15 @@ playing: "Reproduzindo {{ heard_name }}"
 
 playing_genre: "Tocando o gênero {{ genre_name }}"
 
-playing_genre_artist: "Tocando o gênero {{ genre_name }} do artista {{ artist_name }}"
+playing_genre_artist: "Tocando o gênero {{ genre_name }} de {{ artist_name }}"
 
 playing_album: "Tocando o álbum {{ album_name }}"
 
-playing_album_artist: "Tocando o álbum {{ album_name }} do artista {{ artist }}"
+playing_album_artist: "Tocando o álbum {{ album_name }} de {{ artist }}"
 
 playing_song: "Tocando a música {{ song_name }}"
 
-playing_song_artist: "Tocando a música {{ song_name }} do artista {{ artist }}"
+playing_song_artist: "Tocando a música {{ song_name }} de {{ artist }}"
 
 playing_song_album: "Tocando a música {{ song_name }} do álbum {{ album_name }}"
 
@@ -108,7 +108,7 @@ playing_episode_number: "Reproduzindo a temporada {{ season }} episódio {{ epis
 
 playing_action_episode_number: "{{ action }} a temporada {{ season }} episódio {{ episode }} de {{ show_name }}"
 
-playing_musicvideo: "Reproduzindo o vídeo de música {{ musicvideo_name }} do artista {{ artist_name }}"
+playing_musicvideo: "Reproduzindo o vídeo de música {{ musicvideo_name }} de {{ artist_name }}"
 
 playing_empty: "Reproduzindo"
 
@@ -126,7 +126,7 @@ shuffling_playlist: "Embaralhando a playlist {{ playlist_name }}"
 
 shuffling_album: "Embaralhando o álbum {{ album_name }}"
 
-shuffling_album_artist: "Embaralhando o álbum {{ album_name }} do artista {{ artist }}"
+shuffling_album_artist: "Embaralhando o álbum {{ album_name }} de {{ artist }}"
 
 shuffle_on: "Modo aleatório ligado"
 
@@ -140,7 +140,7 @@ loop_off: "Modo de repetição desligado"
 
 no_new_episodes_show: "Não há novos episódios para {{ show_name }}"
 
-no_albums_artist: "Você não tem álbuns do artista {{ artist }}"
+no_albums_artist: "Você não tem álbuns de {{ artist }}"
 
 no_new_albums: "Você não tem nenhum álbum novo para ouvir"
 
@@ -199,219 +199,219 @@ nothing_currently_playing: "O Kodi não está tocando nenhuma música no momento
 ##  Card Title Templates  ##
 ############################
 
-card_config_missing: "Invalid configuration"
+card_config_missing: "Configuração inválida"
 
-looking_for_show: "Looking for new episodes of {{ heard_show }}"
+looking_for_show: "Procurando por novos episódios de {{ heard_show }}"
 
-current_playing_item: "Currently playing item"
+current_playing_item: "Item atualmente sendo reproduzido"
 
-time_left_playing: "Time left on currently playing item"
+time_left_playing: "Tempo restante no item atualmente sendo reproduzido"
 
-play_pause: "Play/Pause"
+play_pause: "Reproduzir/Parar"
 
-stopping: "Stopping playback"
+stopping: "Parando reprodução"
 
-step_forward: "Stepping forward"
+step_forward: "Adiantando"
 
-step_backward: "Stepping backward"
+step_backward: "Atrasando"
 
-big_step_forward: "Big step forward"
+big_step_forward: "Adiantando bastante"
 
-big_step_backward: "Big step backward"
+big_step_backward: "Atrasando bastante"
 
-listen_artist: "Playing music by {{ heard_artist }}"
+listen_artist: "Tocando música de {{ heard_artist }}"
 
-listen_artist_genre: "Playing {{ heard_genre }} music by {{ heard_artist }}"
+listen_artist_genre: "Tocando o gênero {{ heard_genre }} de {{ heard_artist }}"
 
-newly_added_shows: "Newly added shows"
+newly_added_shows: "Seriados adicionados recentemente"
 
-newly_added_albums: "Newly added albums"
+newly_added_albums: "Álbuns adicionados recentemente"
 
-newly_added_movies: "Newly added movies"
+newly_added_movies: "Filmes adicionados recentemente"
 
-newly_added_movies_genre: "Newly added {{ genre }} movies"
+newly_added_movies_genre: "Filmes de {{ genre }} adicionados"
 
-last_unwatched: "Playing the next unwatched episode of the last show watched"
+last_unwatched: "Reproduzindo o próximo episódio não assistido do último seriado assistido"
 
-update_audio: "Updating audio library"
+update_audio: "Atualizando biblioteca de áudio"
 
-update_video: "Updating video library"
+update_video: "Atualizando biblioteca de vídeo"
 
-clean_audio: "Cleaning audio library"
+clean_audio: "Limpando biblioteca de áudio"
 
-clean_video: "Cleaning video library"
+clean_video: "Limpando biblioteca de vídeo"
 
-ejecting_media: "Ejecting media"
+ejecting_media: "Ejetando mídia"
 
-quitting: "Quitting"
+quitting: "Saindo"
 
-suspending_system: "Suspending system"
+suspending_system: "Sunpendendo sistema"
 
-shutting_down: "Shutting down system"
+shutting_down: "Desligando sistema"
 
-rebooting: "Rebooting system"
+rebooting: "Reiniciando sistema"
 
-hibernating: "Hibernating system"
+hibernating: "Hibernando sistema"
 
-player_zoom_normal: "Player zoom normal"
+player_zoom_normal: "Zoom normal"
 
-player_zoom_out: "Player zoom out"
+player_zoom_out: "Afastar zoom"
 
-player_zoom_out_right: "Player zoom out and move right"
+player_zoom_out_right: "Afastar zoom e mover para a direita"
 
-player_zoom_out_left: "Player zoom out and move left"
+player_zoom_out_left: "Afastar zoom e mover para a esquerda"
 
-player_zoom_out_down: "Player zoom out and move down"
+player_zoom_out_down: "Afastar zoom e mover para baixo"
 
-player_zoom_out_up: "Player zoom out and move up"
+player_zoom_out_up: "Afastar zoom e mover para cima"
 
-player_zoom_in: "Player zoom in"
+player_zoom_in: "Aproximar zoom"
 
-player_zoom_in_right: "Player zoom in and move right"
+player_zoom_in_right: "Aproximar zoom e mover para a direita"
 
-player_zoom_in_left: "Player zoom in and move left"
+player_zoom_in_left: "Aproximar zoom e mover para a esquerda"
 
-player_zoom_in_down: "Player zoom in and move down"
+player_zoom_in_down: "Aproximar zoom e mover para baixo"
 
-player_zoom_in_up: "Player zoom in and move up"
+player_zoom_in_up: "Aproximar zoom e mover para cima"
 
-player_zoom_hold: "Player zoom hold"
+player_zoom_hold: "Bloquear zoom"
 
-player_rotate_cc: "Player rotate counter clockwise"
+player_rotate_cc: "Rotacionar sentido anti-horário"
 
-player_rotate: "Player rotate clockwise"
+player_rotate: "Rotacionar sentido horário"
 
-player_move_right: "Player move right"
+player_move_right: "Mover para a direita"
 
-player_move_left: "Player move left"
+player_move_left: "Mover para a esquerda"
 
-player_move_down: "Player move down"
+player_move_down: "Mover para baixo"
 
-player_move_up: "Player move up"
+player_move_up: "Mover para cima"
 
-shuffle_disable: "Disabling shuffle"
+shuffle_disable: "Desligar aleatório"
 
-shuffle_enable: "Enabling shuffle"
+shuffle_enable: "Habilitar aleatório"
 
-loop_disable: "Disabling repeat"
+loop_disable: "Desabilitar repetição"
 
-loop_enable: "Cycling repeat mode"
+loop_enable: "Ativando repetição"
 
-audio_stream_next: "Switching to next audio stream"
+audio_stream_next: "Alternando para o próximo fluxo de áudio"
 
-audio_stream_previous: "Switching to previous audio stream"
+audio_stream_previous: "Alternando para o fluxo de áudio anterior"
 
-subtitles_next: "Switching to next subtitles"
+subtitles_next: "Alternando para a próxima legenda"
 
-subtitles_previous: "Switching to previous subtitles"
+subtitles_previous: "Alternando para a legenda anterior"
 
-subtitles_disable: "Disabling subtitles"
+subtitles_disable: "Desabilitando legendas"
 
-subtitles_enable: "Enabling subtitles"
+subtitles_enable: "Habilitando legendas"
 
-subtitles_download: "Downloading subtitles"
+subtitles_download: "Baixando legendas"
 
-toggle_audio_passthrough: "Toggling audio passthrough"
+toggle_audio_passthrough: "Alternando passagem de áudio direta"
 
-adjusting_volume: "Adjusting volume"
+adjusting_volume: "Ajustando volume"
 
-volume_down: "Turning volume down"
+volume_down: "Abaixando volume"
 
-volume_up: "Turning volume up"
+volume_up: "Aumentando volume"
 
-mute_unmute: "Toggling mute"
+mute_unmute: "Alternando mudo"
 
-toggle_fullscreen: "Toggling fullscreen"
+toggle_fullscreen: "Alternando Tela Cheia"
 
-toggle_stereoscopic_mode: "Toggling stereoscopic mode"
+toggle_stereoscopic_mode: "Alternando modo estereoscópico"
 
-playing_previous: "Playing previous item"
+playing_previous: "Reproduzindo item anterior"
 
-playing_next: "Playing next item"
+playing_next: "Reproduzindo próximo item"
 
-playing_same: "Starting current item over"
+playing_same: "Reiniciando o item atual"
 
-playing_recent_songs: "Playing recently added songs"
+playing_recent_songs: "Tocando as música adicionadas recentemente"
 
-playing_random_movie: "Playing a random movie"
+playing_random_movie: "Reproduzindo um filme aleatório"
 
-playing_random_movie_genre: "Playing a random {{ genre }} movie"
+playing_random_movie_genre: "Reproduzindo um filme aleatório de {{ genre }}"
 
-playing_movie: "Playing movie"
+playing_movie: "Reproduzindo filme"
 
-playing_movie_trailer: "Playing movie trailer"
+playing_movie_trailer: "Reproduzindo trailer do filme"
 
-shuffling_episodes: "Shuffling episodes of {{ heard_show }}"
+shuffling_episodes: "Embaralhando episódios de {{ heard_show }}"
 
-playing_an_episode: "Playing an episode of {{ heard_show }}"
+playing_an_episode: "Reproduzindo um episódio de {{ heard_show }}"
 
-playing_random_episode: "Playing a random episode of {{ heard_show }}"
+playing_random_episode: "Reproduzindo um episódio aleatório de {{ heard_show }}"
 
-playing_random_show: "Playing a random show"
+playing_random_show: "Reproduzindo um seriado aleatório"
 
-playing_random_show_genre: "Playing a random {{ genre }} show"
+playing_random_show_genre: "Reproduzindo um seriado aleatório de {{ genre }}"
 
-playing_next_unwatched_episode: "Playing the next unwatched episode of {{ heard_show }}"
+playing_next_unwatched_episode: "Reproduzindo o próximo episódio não assistido de {{ heard_show }}"
 
-playing_newest_episode: "Playing the newest episode of {{ heard_show }}"
+playing_newest_episode: "Reproduzindo o mais nov episódio de {{ heard_show }}"
 
-playing_musicvideo_card: "Playing music video"
+playing_musicvideo_card: "Reproduzindo vídeo de música"
 
-shuffling_musicvideos: "Shuffling music videos"
+shuffling_musicvideos: "Embaralhando vídeos de música"
 
-shuffling_musicvideos_genre: "Shuffling {{ genre }} music videos"
+shuffling_musicvideos_genre: "Embaralhando vídeos de música de {{ genre }}"
 
-shuffling_musicvideos_artist: "Shuffling music videos by {{ artist }}"
+shuffling_musicvideos_artist: "Embaralhando vídeos de música de {{ artist }}"
 
-shuffling_musicvideos_genre_artist: "Shuffling {{ genre }} music videos by {{ artist }}"
+shuffling_musicvideos_genre_artist: "Embaralhando vídeos de música de {{ genre }} de {{ artist }}"
 
-playing_random_musicvideo: "Playing a random music video"
+playing_random_musicvideo: "Reproduzindo vídeo de música aleatório"
 
-playing_random_musicvideo_genre: "Playing a random {{ genre }} music video"
+playing_random_musicvideo_genre: "Reproduzindo vídeo de música aleatório de {{ genre }}"
 
-playing_random_musicvideo_artist: "Playing a random music video by {{ artist }}"
+playing_random_musicvideo_artist: "Reproduzindo vídeo de música aleatório de {{ artist }}"
 
-playing_random_musicvideo_genre_artist: "Playing a random {{ genre }} music video by {{ artist }}"
+playing_random_musicvideo_genre_artist: "Reproduzindo vídeo de música aleatório {{ genre }} de {{ artist }}"
 
-playing_album_card: "Playing album"
+playing_album_card: "Tocando álbum"
 
-shuffling_album_card: "Shuffling album"
+shuffling_album_card: "Embaralhando álbum"
 
-playing_latest_album_card: "Playing latest album by {{ heard_artist }}"
+playing_latest_album_card: "Tocando o último álbum de {{ heard_artist }}"
 
-shuffling_latest_album_card: "Shuffling latest album by {{ heard_artist }}"
+shuffling_latest_album_card: "Embaralhando o último álbum de {{ heard_artist }}"
 
-playing_song_card: "Playing song"
+playing_song_card: "Tocando música"
 
-playing_album_or_song: "Playing album or song"
+playing_album_or_song: "Tocando álbum ou música"
 
-action_audio_playlist: "{{ action }} audio playlist"
+action_audio_playlist: "{{ action }} lista de áudio"
 
-action_video_playlist: "{{ action }} video playlist"
+action_video_playlist: "{{ action }} lista de vídeo"
 
-party_mode: "Party Mode"
+party_mode: "Modo Festa"
 
-albums_by: "Albums by {{ heard_artist }}"
+albums_by: "Álbuns de {{ heard_artist }}"
 
-open_addon: "Opening addon"
+open_addon: "Abrindo addon"
 
-search: "Search"
+search: "Procurar"
 
-help_card: "Help"
+help_card: "Ajuda"
 
-playback_stopped: "Playback stopped"
+playback_stopped: "Reprodução parada"
 
-unknown_playing: "The currently playing item is unknown"
+unknown_playing: "O item sendo reproduzido é desconhecido"
 
-nothing_playing: "There is nothing currently playing"
+nothing_playing: "Não há nada sendo reproduzido"
 
-remaining_close: "It is nearly over"
+remaining_close: "Está quase acabando"
 
-remaining_mins: "There are {{ minutes }} minutes remaining"
+remaining_mins: "Ainda tem {{ minutes }} minutos"
 
-remaining_min: "There is one minute remaining"
+remaining_min: "Ainda tem 1 minuto"
 
-remaining_time: ", and it will end at {{ end_time }}"
+remaining_time: ", e terminará em {{ end_time }}"
 
 
 ############################
@@ -422,28 +422,28 @@ okay: "Okay"
 
 short_confirm: " "
 
-and_more: ", and more"
+and_more: ", e mais"
 
-and_more_similar: ", and more"
+and_more_similar: ", and mais"
 
-and: ", and "
+and: ", e "
 
-by: "by"
+by: "tchau"
 
-no_more_songs: "There are no more songs in the queue"
+no_more_songs: "Não há mais músicas na fila"
 
-no_songs_history: "There are no songs in your playlist history"
+no_songs_history: "Não há músicas no histórico da sua playlist"
 
-no_current_song: "There is no current song"
+no_current_song: "Não há música atual"
 
-current_show_is: "The currently playing tv show is"
+current_show_is: "O seriado  sendo reproduzido é"
 
-season: "season"
+season: "temporada"
 
-episode: "episode"
+episode: "episódio"
 
-current_song_is: "The currently playing song is"
+current_song_is: "A música tocando é"
 
-on_the_album: "on the album"
+on_the_album: "do álbum"
 
-current_movie_is: "The currently playing movie is"
+current_movie_is: "o filme reproduzindo é"
