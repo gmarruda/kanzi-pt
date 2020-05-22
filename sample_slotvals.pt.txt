@@ -1,0 +1,18 @@
+Addon YouTube
+MovieGenre Comédia
+Movie Trovão Tropical
+Artist Legião Urbana
+Album Vamo Batê Lata
+MusicGenre Samba
+AudioPlaylist Férias
+Song Cabeça Dinossauro
+Show O doutrinador
+VideoPlaylist Vídeos HD
+ShowGenre Ficção Científica
+MusicVideoGenre Rock
+MusicVideo Futebol, Mulher e Rock n'Roll
+Volume setenta e cinco
+Season dois
+Episode oito
+ForwardDur um minuto
+BackwardDur trinta segundos
