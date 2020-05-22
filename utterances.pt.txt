@@ -73,33 +73,31 @@ SubtitlesNext próximas (/legendas)
 SubtitlesPrevious (/legendas) anteriores
 SubtitlesDownload download legendas
 
-# updated until here
+AudioStreamNext (proximo/mudar) (/fluxo) (de) (/audio)
+AudioStreamNext (proximo/mudar) (/idioma) (de) (/audio)
+AudioStreamPrevious (/fluxo) (de audio) (/anterior)
+AudioStreamPrevious (/idioma) (de audio) (/anterior)
 
-AudioStreamNext (next/switch) audio (/stream)
-AudioStreamNext (next/switch) (/audio) language
-AudioStreamPrevious previous audio (/stream)
-AudioStreamPrevious previous (/audio) language
+PlayerMoveUp mover (tela) (para) cima
+PlayerMoveDown mover (tela) (para) baixo
+PlayerMoveLeft mover (tela) (para) (a) esquerda
+PlayerMoveRight mover (tela) (para) (a) direita
+PlayerRotateClockwise rotacionar (/sentido horário/noventa graus)
+PlayerRotateCounterClockwise rotacionar (/sentido anti horário)
+PlayerZoomHold (manter/bloquear/parar) zoom
+PlayerZoomIn aproximar zoom
+PlayerZoomInMoveUp aproximar zoom (e) mover (para/pra) cima
+PlayerZoomInMoveDown aproximar zoom (e) mover (para/pra) baixo
+PlayerZoomInMoveLeft aproximar zoom (e) mover (para/pra) esquerda
+PlayerZoomInMoveRight aproximar zoom (e) mover (para/pra) direita
+PlayerZoomOut afastar zoom
+PlayerZoomOutMoveUp afastar zoom (e) mover (para/pra) cima
+PlayerZoomOutMoveDown afastar zoom (e) mover (para/pra) baixo
+PlayerZoomOutMoveLeft afastar zoom (e) mover (para/pra) esquerda
+PlayerZoomOutMoveRight afastar zoom (e) mover (para/pra) direita
+PlayerZoomReset (resetar) zoom (normal)
 
-PlayerMoveUp (track/pan/move) up
-PlayerMoveDown (track/pan/move) down
-PlayerMoveLeft (track/pan/move) left
-PlayerMoveRight (track/pan/move) right
-PlayerRotateClockwise rotate (/clockwise/ninety degrees)
-PlayerRotateCounterClockwise rotate counter clockwise
-PlayerZoomHold hold (/it) (/there/right there)
-PlayerZoomHold give me a hard copy there
-PlayerZoomHold give me a hard copy right there
-PlayerZoomIn (enhance/move in/zoom in)
-PlayerZoomInMoveUp (enhance/move in/zoom in) and (track/pan/move) up
-PlayerZoomInMoveDown (enhance/move in/zoom in) and (track/pan/move) down
-PlayerZoomInMoveLeft (enhance/move in/zoom in) and (track/pan/move) left
-PlayerZoomInMoveRight (enhance/move in/zoom in) and (track/pan/move) right
-PlayerZoomOut (pull out/pull back/move out/zoom out)
-PlayerZoomOutMoveUp (pull out/pull back/move out/zoom out) and (track/pan/move) up
-PlayerZoomOutMoveDown (pull out/pull back/move out/zoom out) and (track/pan/move) down
-PlayerZoomOutMoveLeft (pull out/pull back/move out/zoom out) and (track/pan/move) left
-PlayerZoomOutMoveRight (pull out/pull back/move out/zoom out) and (track/pan/move) right
-PlayerZoomReset (normal/reset) zoom
+#updated until here
 
 CleanVideo clean (/video) library
 
